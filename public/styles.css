@@ -1,0 +1,15 @@
+/* Exemplo de estilos no style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5eeee;
+}
+
+h1 {
+    color: #ec1212;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+

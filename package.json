@@ -1,0 +1,23 @@
+{
+  "name": "web-salao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielsDiniz1/web_salao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielsDiniz1/web_salao/issues"
+  },
+  "homepage": "https://github.com/DanielsDiniz1/web_salao#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
