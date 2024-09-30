@@ -5,7 +5,19 @@ body {
 }
 
 h1 {
-    color: #ec1212;
+    color: #0408f8;
+} 
+
+h2 {color: #f00db7;
+   
+}
+
+h3 { color: #000000;
+
+}
+
+button{
+    color: rgb(0, 3, 3);
 }
 
 p {

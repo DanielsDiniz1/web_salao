@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/styles.css"> <!--Ligação com o CSS--> 
+</head>
+<body>
+<h1> Fazer Cadastro</h1>
+
+<!--Formulario que envia os dados de cadastro -->
+<form action="/cadastro" method="post">
+
+    <label for="nome">Nome:</label> <!-- Rótulo para o campo de nome do usuário.-->
+    <input type="text" id="nome" name="nome" placeholder="Nome" required > <!-- Campo de texto onde o usuário insere seu nome. O atributo 'required' exige que o campo seja preenchido. -->
+    <br><br>
+
+    <label for="email"> Email: </label> <!--Rótulo para o campo de email-->
+    <input type="email" id="email" name="email" required placeholder="Email">
+    <br><br>
+
+    <label for="senha"> Senha: </label> <!--Rótulo para o campo de Senha do usuario-->
+    <input type="password" id="senha" name="senha" placeholder="senha" required>
+    <br><br>
+
+    <label for="cofirmaSenha"> Corfimar Senha </label> <!--Rótulo para confirmar senha-->
+    <input type="password" id="corfirmaSenha" name="confirmaSenha" placeholder="Corfirma Senha" required>
+    <br><br>
+
+    <button type="submit">Cadastrar</button> <!--Botão de envio do formulário-->
+
+    <!--Link para a página de login para o caso de o usuário já ter uma conta -->
+    <p>Já tem uma conta? <a href="/login">Faça Login aqui</a></p>
+</body>
+</html>
