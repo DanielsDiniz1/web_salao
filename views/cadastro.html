@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,13 +24,21 @@
     <input type="password" id="senha" name="senha" placeholder="senha" required>
     <br><br>
 
-    <label for="cofirmaSenha"> Corfimar Senha </label> <!--Rótulo para confirmar senha-->
-    <input type="password" id="corfirmaSenha" name="confirmaSenha" placeholder="Corfirma Senha" required>
+    <label for="confirmaSenha"> Corfimar Senha </label> <!--Rótulo para confirmar senha-->
+    <input type="password" id="confirmaSenha" name="confirmaSenha" placeholder="Corfirma Senha" required>
     <br><br>
 
     <button type="submit">Cadastrar</button> <!--Botão de envio do formulário-->
+</form>    
 
-    <!--Link para a página de login para o caso de o usuário já ter uma conta -->
-    <p>Já tem uma conta? <a href="/login">Faça Login aqui</a></p>
+<div id="mensagemErro" style="color: red;"></div>
+<div id="mensagemSucesso" style="color: green "></div>
+
+<!-- Script que captura o evento de submissão do formulário -->
+<script src="/cadastro.js"></script>
+
+<!--Link para a página de login para o caso de o usuário já ter uma conta -->
+<p>Já tem uma conta? <a href="/login">Faça Login aqui</a></p>
+
 </body>
 </html>
