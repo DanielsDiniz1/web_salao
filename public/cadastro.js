@@ -19,7 +19,7 @@ form.addEventListener('submit', function (event) {
         headers: {
             'Content-type': 'application/x-www-form-urlencoded',
         },
-        body: params,
+        body: JSON.stringify(formData),
     })
         .then(response => response.json())
         .then(data => {

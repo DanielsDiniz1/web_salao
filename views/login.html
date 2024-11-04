@@ -1,12 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="/styles.css"> <!--Ligação com o CSS-->
+    <link rel="stylesheet" href="/styles.css"> <!-- Ligação com o CSS -->
 </head>
+
 <body>
-    <h1>Faça login</h1>
+    <div id="container">
+        <h1 id="titulo">Faça Login</h1>
+
+        <!-- Formulario de login -->
+        <form id="loginForm" method="post" action="/login">
+
+            <!-- Campo para ID ou Email -->
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Login email" required>
+
+            <!-- Campo para senha -->
+            <label for="senha"></label>
+            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+
+            <!-- Opção de lembrar Usuário -->
+            <label>
+                <input type="checkbox" id="Lembrar" name="lembrar"> Lembrar de mim
+            </label>
+
+            <!-- Mensagem de Erro -->
+            <div id="mensagemErro"></div>
+            <br><br>
+
+            <!-- Div mensagem de Boas Vindas -->
+            <div id="boasVindas"></div>
+            <br><br>
+
+            <!-- Botão para Enviar o Login -->
+            <button type="submit">Entrar</button>
+            <br><br>
+
+            <!-- Links Adicionais -->
+            <p><a href="/recuperarSenha">Esqueci minha senha</a></p>
+            <P><a href="/cadastro">Criar nova conta</a></P>
+
+        </form>
+
+        <!-- Aqui você pode adicionar scripts JavaScript para validar o formulário -->
+        <script src="/login.js"></script>
+    </div>
 </body>
 </html>
