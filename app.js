@@ -17,6 +17,9 @@ app.use(express.urlencoded({ extended: true }));
 // Configura o Express para servir arquivos estáticos da pasta "public"
 app.use(express.static(path.join(__dirname, "public")));
 
+// Adicionando para servir arquivos estáticos da pasta "public"
+app.use("/imagens", express.static(path.join(__dirname, "imagens")));
+
 // Pagina inicial 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));

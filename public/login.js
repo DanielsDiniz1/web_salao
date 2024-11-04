@@ -58,7 +58,7 @@ loginForm.addEventListener("submit", function (event) {
 })
 document.addEventListener("DOMContentLoaded", function () {
     const titulo = document.querySelector("#titulo");
-    titulo.textContent = "Seja Bem Vindo"
+    titulo.textContent = "Bixaninho.com"
 })
 
 // Manipulando Css
