@@ -14,6 +14,9 @@ app.use(cors({
 app.use(express.urlencoded({ extended: true }));
 // A função 'express.urlencoded' processa os dados do formulário e os torna acessíveis via 'req.body
 
+// For aplication/json
+app.use(express.json());
+
 // Configura o Express para servir arquivos estáticos da pasta "public"
 app.use(express.static(path.join(__dirname, "public")));
 

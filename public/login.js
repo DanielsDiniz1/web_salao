@@ -4,7 +4,7 @@ const loginForm = document.querySelector("#loginForm");
 // Captura a div para exibir mensgem de erro
 const mensagemErro = document.querySelector("#mensagemErro");
 
-// Captura a divi para exibir mensagem de Boas-Vindas
+// Captura a div para exibir mensagem de Boas-Vindas
 const boasVindas = document.querySelector("#boasVindas");
 
 // Função para exibir a mensagem de boas-vindas

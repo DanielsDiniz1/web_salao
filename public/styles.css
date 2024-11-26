@@ -16,6 +16,26 @@ body {
 #paginaCadastro button[type="submit"]{
     width: 100%;
 }
+#paginaCadastro{
+    
+    background-image: url('/imagens/gatos.jpg');
+    position: absolute;
+    border-radius: 15px;
+    color: #000;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px, 4px, 8px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    width: 80;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
 
 #container{
     background-image: url('/imagens/gatos.jpg');
